@@ -7,4 +7,7 @@ public class Node {
         right = null;
         this.value = value;
     }
+    public boolean isLeaf(){
+        return (left==null && right==null);
+    }
 }
